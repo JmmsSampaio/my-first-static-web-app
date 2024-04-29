@@ -28,7 +28,7 @@ jobs:
           action: "upload"
           ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
           # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
-          app_location: "./src" # App source code path
+          app_location: "/src" # App source code path
           api_location: "" # Api source code path - optional
           output_location: "./src" # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
@@ -42,5 +42,5 @@ jobs:
         id: closepullrequest
         uses: Azure/static-web-apps-deploy@v1
         with:
-          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_VICTORIOUS_GLACIER_051E28B03 }}
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_VICTORIOUS_GLACIER_2d0b5640b91c0452ab97926831c6c3bc455f500d2b8156628ec983a37079c27b5-508a5e95-6ece-49f3-9ab4-cd686178fbc3003437592 }}
           action: "close"
