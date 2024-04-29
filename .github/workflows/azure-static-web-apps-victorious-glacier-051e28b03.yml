@@ -42,5 +42,5 @@ jobs:
         id: closepullrequest
         uses: Azure/static-web-apps-deploy@v1
         with:
-          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_VICTORIOUS_GLACIER_2d0b5640b91c0452ab97926831c6c3bc455f500d2b8156628ec983a37079c27b5-508a5e95-6ece-49f3-9ab4-cd686178fbc3003437592 }}
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_VICTORIOUS_GLACIER_051E28B03-508a5e95-6ece-49f3-9ab4-cd686178fbc3003437592 }}
           action: "close"
